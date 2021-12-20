@@ -37,7 +37,7 @@
         <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="로그인" />
         <div class="login_article">
-            <a href="login.do">1982 홈페이지</a>           
+            <a href="../main.do">1982 홈페이지</a>           
         </div>    
     </form>
 </body>

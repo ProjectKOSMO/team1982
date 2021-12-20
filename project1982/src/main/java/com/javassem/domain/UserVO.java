@@ -5,7 +5,6 @@ public class UserVO {
 	private int usernum;
 	private String userid;
 	private String userpass;
-	private String userpass2;
 	private String username;
 	private String usercode;
 	private String usergender;
@@ -16,22 +15,12 @@ public class UserVO {
 	private String userdate;
 	private String userbirth;
 	
-	public UserVO(){
-		
+	public String getUserbirth() {
+		return userbirth;
 	}
-	
-	public UserVO(String userid, String userpass, String userpass2, String username, String userpn, String usermail, String userbirth, String userdate) {
-	super();
-	this.userid= userid;
-	this.userpass = userpass;
-	this.userpass2 = userpass2;
-	this.username = username;
-	this.userpn = userpn;
-	this.usermail= usermail;
-	this.userbirth= userbirth;
-	this.userdate = userdate;
+	public void setUserbirth(String userbirth) {
+		this.userbirth = userbirth;
 	}
-	
 	public int getUsernum() {
 		return usernum;
 	}
@@ -49,12 +38,6 @@ public class UserVO {
 	}
 	public void setUserpass(String userpass) {
 		this.userpass = userpass;
-	}
-	public String getUserpass2() {
-		return userpass2;
-	}
-	public void setUserpass2(String userpass2) {
-		this.userpass2 = userpass2;
 	}
 	public String getUsername() {
 		return username;
@@ -104,12 +87,5 @@ public class UserVO {
 	public void setUserdate(String userdate) {
 		this.userdate = userdate;
 	}
-	public String getUserbirth() {
-		return userbirth;
-	}
-	public void setUserbirth(String userbirth) {
-		this.userbirth = userbirth;
-	}
-	
 	
 }
