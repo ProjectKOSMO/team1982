@@ -25,7 +25,7 @@ public class OwnerLoginController {
 	public OwnerService ownerService;
 	
 	@RequestMapping("ownerInsert.do")
-	public String userinsert(OwnerVO vo){
+	public String ownerInsert(OwnerVO vo){
 		ownerService.ownerInsert(vo);
 		return "redirect:owner_login.do";
 	}

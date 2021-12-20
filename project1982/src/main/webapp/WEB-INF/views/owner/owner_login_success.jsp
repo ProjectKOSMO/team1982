@@ -13,7 +13,7 @@
 	
 	session.setAttribute("ownerid", ownerid);  
 	
-	response.sendRedirect("../main.do");
+	response.sendRedirect("./job_positing.do");
 	
 %>
 	
